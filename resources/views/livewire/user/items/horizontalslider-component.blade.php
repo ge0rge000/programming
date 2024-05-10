@@ -1,4 +1,11 @@
 <div>
+    <style>
+        .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 89px;
+}
+    </style>
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5 mb-5">
             <div class="bg-white">
@@ -9,9 +16,6 @@
                     <img src="{{asset('user/img/vendor-4.jpg')}}" alt="">
                     <img src="{{asset('user/img/vendor-5.jpg')}}" alt="">
                     <img src="{{asset('user/img/vendor-6.jpg')}}" alt="">
-                    <img src="{{asset('user/img/vendor-7.jpg')}}" alt="">
-                    <img src="{{asset('user/img/vendor-8.jpg')}}" alt="">
-                    <img src="{{asset('user/img/vendor-9.jpg')}}" alt="">
                 </div>
             </div>
         </div>

@@ -131,7 +131,7 @@ h1.display-1.text-white.mb-md-4.animated.zoomIn {
         <div class="carousel-item fixed-size" >
             <img class="d-block w-100 fixed-media" src="{{asset('user/slider/digital-marketing-768x573.png')}}" alt="Responsive image">
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <h1 class="display-1 text-white mb-md-4 typing-animation">Digital marketing 
+                <h1 class="display-1 text-white mb-md-4 typing-animation">  IOT Development
                 </h1>
                 <div class="button-container">
 

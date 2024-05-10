@@ -159,6 +159,8 @@ p {
 img, svg {
     vertical-align: middle;
     height: 114px;
+}.col-lg-4.home-fifth-cart-clm {
+    margin-bottom: 33px;
 }
 @media screen and (max-width: 600px) {
     h1, h2 {

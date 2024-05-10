@@ -45,7 +45,7 @@
         </div>
         <div class="col-md-6 text-panel">
             <h1>Lighting Sensor</h1>
-            <p>Welcome to a new era of lighting control with GloryTech. Our innovative lighting solutions empower you to create the perfect ambiance for any moment, all at the touch of a button.</p>
+            <p>Welcome to a new era of lighting control with MPTS TECH. Our innovative lighting solutions empower you to create the perfect ambiance for any moment, all at the touch of a button.</p>
         </div>
     </div>
     <br>
@@ -70,7 +70,7 @@
             <h1>Curtain control
 
             </h1>
-            <p> Welcome to a world where convenience meets sophistication – GloryTech Curtain Control. Experience the effortless beauty of automated curtains that transform your living space with a touch of elegance.
+            <p> Welcome to a world where convenience meets sophistication – MPTS TECH Curtain Control. Experience the effortless beauty of automated curtains that transform your living space with a touch of elegance.
 
             </p>
         </div>
@@ -84,7 +84,7 @@
             <h1>Smart doors
 
             </h1>
-            <p> Introducing the future of security – GloryTech Smart Doors. Elevate your home's protection with cutting-edge technology that puts safety at your fingertips, ensuring peace of mind like never before.
+            <p> Introducing the future of security – MPTS TECH Smart Doors. Elevate your home's protection with cutting-edge technology that puts safety at your fingertips, ensuring peace of mind like never before.
 
             </p>
         </div>
@@ -96,7 +96,7 @@
         </div>
         <div class="col-md-6 text-panel">
             <h1>Garage gate
-            </h1>Unlock the potential of your garage with GloryTech Smart Garage Gates. We bring you innovative technology that seamlessly integrates convenience, security, and modernity, redefining how you interact with your garage space.
+            </h1>Unlock the potential of your garage with MPTS TECH Smart Garage Gates. We bring you innovative technology that seamlessly integrates convenience, security, and modernity, redefining how you interact with your garage space.
             </p>
         </div>
     </div>
@@ -109,7 +109,7 @@
         <div class="col-md-6 text-panel t">
             <h1>Home cinema
 
-            </h1>Step into a realm of cinematic wonder with GloryTech Home Theater Systems. Immerse yourself in breathtaking visuals and captivating sound, all within the comfort of your own home.
+            </h1>Step into a realm of cinematic wonder with MPTS TECH Home Theater Systems. Immerse yourself in breathtaking visuals and captivating sound, all within the comfort of your own home.
 
             </p>
         </div>
@@ -122,7 +122,7 @@
         </div>
         <div class="col-md-6 text-panel">
             <h1>Water heaters
-            </h1>Experience a new level of comfort and control with GloryTech Smart Water Heaters. Our advanced technology brings you hot water on demand, combined with intelligent features that enhance your daily routines.
+            </h1>Experience a new level of comfort and control with MPTS TECH Smart Water Heaters. Our advanced technology brings you hot water on demand, combined with intelligent features that enhance your daily routines.
 
             </p>
         </div>
@@ -135,7 +135,7 @@
         </div>
         <div class="col-md-6 text-panel t">
             <h1>Motion sensors
-            </h1>Introducing GloryTech Motion Sensors – your vigilant guardians against the unexpected. Our advanced technology brings an extra layer of security to your space, ensuring you're always one step ahead.
+            </h1>Introducing MPTS TECH Motion Sensors – your vigilant guardians against the unexpected. Our advanced technology brings an extra layer of security to your space, ensuring you're always one step ahead.
 
             </p>
         </div>

@@ -15,6 +15,12 @@ h1.mb-4 {
 }p {
     text-align: justify;
 }
+@media (max-width: 970px) {
+    img.img-fluid.w-100.rounded.mb-5 {
+    height: 350px;
+}
+}
+
   </style>
   @section('title', $type->name_type)
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">

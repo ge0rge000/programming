@@ -68,7 +68,7 @@
         </div>
     </div>
     <!-- About End -->
-
+    <livewire:user.items.horizontalslider-component />
 
 
 </div>

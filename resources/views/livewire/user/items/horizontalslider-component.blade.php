@@ -12,7 +12,7 @@
                 <div class="owl-carousel vendor-carousel">
                     <img src="{{asset('user/img/vendor-1.jpg')}}" alt="">
                     <img src="{{asset('user/img/vendor-2.jpg')}}" alt="">
-                    <img src="{{asset('user/img/vendor-3.jpg')}}" alt="">
+                    <img src="{{asset('user/img/Voco Hotels.png')}}" alt="">
                     <img src="{{asset('user/img/vendor-4.jpg')}}" alt="">
                     <img src="{{asset('user/img/vendor-5.jpg')}}" alt="">
                     <img src="{{asset('user/img/vendor-6.jpg')}}" alt="">

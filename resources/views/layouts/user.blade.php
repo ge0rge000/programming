@@ -185,7 +185,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
     <!-- Spinner End -->
 
 
-    <a href="https://api.whatsapp.com/send?phone=+971557474526&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=+971557474526;&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
 
     <i class="fab fa-whatsapp  my-float"></i>
     </a>

@@ -76,6 +76,8 @@
         <div class="row">
             @foreach ($service->types->shuffle()->take(3) as $type)  <!-- Take only three types -->
                 <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s">
+                    <a href="{{str_replace('%20', '-', route('type_service_component', ['name'=>$service->name_service, 'name_type'=>$type->name_type]))}}">
+
                     <div class="blog-item bg-light rounded overflow-hidden" style="height: 500px;">
                         <div class="blog-img position-relative overflow-hidden" style="height: 300px;">
                             <img class="img-fluid" src="{{ asset('user/photos/' . $type->photo) }}" alt="{{$type->desc_1}}" style="width: 100%; height: 100%; object-fit: cover;">
@@ -88,6 +90,7 @@
                             </a>
                         </div>
                     </div>
+                </a>
                 </div>
 
             @endforeach

@@ -243,7 +243,12 @@ nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
                                 <div class="col-md-4">
                                     @foreach ($serviceChunk as $service)
                                     <div class="dropdown-section">
+
+                                      <a href="{{route("service_component",['name'=>$service->name_service])}}" >
                                         <strong class="dropdown-header">{{ $service->name_service }}</strong>
+                                    </a>
+
+
                                         @if ($service->types->isNotEmpty())
                                         <ul class="dropdown-list">
                                             @foreach ($service->types as $type)

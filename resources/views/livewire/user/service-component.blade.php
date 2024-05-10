@@ -43,6 +43,8 @@ img.img-fluid {
              <div class="row">
                 @foreach ($types as $type)
                     <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+                        <a href="{{str_replace('%20', '-', route('type_service_component', ['name'=>$type->Service->name_service, 'name_type'=>$type->name_type]))}}">
+
                         <div class="blog-item bg-light rounded overflow-hidden" style="height: 500px; width: 100%;">
                             <div class="blog-img position-relative overflow-hidden" style="height: 300px;">
                                 <img class="img-fluid" src="{{ asset('user/photos/' . $type->photo) }}" alt="{{$type->desc_1}}" style="width: 100%; height: 100%; object-fit: cover;">
@@ -53,6 +55,7 @@ img.img-fluid {
                                 <a class="btn btn-lg btn-primary rounded" href="{{str_replace('%20', '-',route('type_service_component',['name'=>$name,'name_type'=>$type->name_type]))}}">     <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <!-- Check if the current iteration number is divisible by 3 -->
                     @if ($loop->iteration % 3 == 0)

@@ -78,6 +78,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
     font-weight: 600;
     outline: none;
     transition: .5s;
+}img.logo.bottom {
+    width: 231px;
+    height: 222px;
+    border-radius: 62px;
 }
 .dropdown-section .dropdown-header {
     font-weight: bold;
@@ -283,7 +287,8 @@ nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
                 <div class="col-lg-4 col-md-6 footer-about">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
                         <a href="{{route("user_home")}}" class="navbar-brand">
-                            <h1 class="m-0 text-white">MPTS TECH</h1>
+                            <h1 class="m-0 text-white">MPTS TECH</h1>.
+                            <img class="logo bottom" src="{{asset("user/logo.png")}}">
                         </a>
 
                     </div>

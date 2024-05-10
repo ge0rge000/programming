@@ -63,10 +63,10 @@ p.mb-0.c {
     margin: 0; /* Remove default margin */
 }
 img.logo {
-    width: 83px;
-    height: 67px;
-    border-radius: 8px;
-}nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
+    width: 167px;
+    height: 104px;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
     background-color: white;
 }.navbar-dark .navbar-nav .nav-link {
     font-family: 'Nunito', sans-serif;
@@ -185,7 +185,7 @@ img.logo {
     <!-- Spinner End -->
 
 
-    <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=+971557474526&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
 
     <i class="fab fa-whatsapp  my-float"></i>
     </a>

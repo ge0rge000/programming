@@ -192,7 +192,7 @@ img.iot {
         </div>
     </div>
 
-              @section('title', "IOT SOLUTION")
+              @section('title', "Development Company - UAE - Expert IoT Solutions Provider")
 
                 <div class="home-new-frth-sec common-gap-nw">
                     <div class="container">

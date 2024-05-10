@@ -52,7 +52,7 @@
 
     <div class="container container-height t">
         <div class="col-md-6 d-flex justify-content-center">
-            <img src="{{asset('user/smarthome/output-onlinepngtools-9.png')}}" alt="Lighting Sensor" class="img-fluid">
+            <img src="{{asset('user/smarthome/output-onlinepngtools-9.png')}}" alt="Air conditioning control" class="img-fluid">
         </div>
         <div class="col-md-6 text-panel t">
             <h1>Air conditioning control
@@ -64,7 +64,7 @@
     <br>
     <div class="container container-height">
         <div class="col-md-6 d-flex justify-content-center">
-            <img src="{{asset('user/smarthome/output-onlinepngtools-10-1.png')}}" alt="Lighting Sensor" class="img-fluid">
+            <img src="{{asset('user/smarthome/output-onlinepngtools-10-1.png')}}" alt="Curtain control" class="img-fluid">
         </div>
         <div class="col-md-6 text-panel">
             <h1>Curtain control
@@ -78,7 +78,7 @@
     <br>
     <div class="container container-height t">
         <div class="col-md-6 d-flex justify-content-center">
-            <img src="{{asset('user/smarthome/output-onlinepngtools-11.png')}}" alt="Lighting Sensor" class="img-fluid">
+            <img src="{{asset('user/smarthome/output-onlinepngtools-11.png')}}" alt="Smart doors" class="img-fluid">
         </div>
         <div class="col-md-6 text-panel t">
             <h1>Smart doors
@@ -92,7 +92,7 @@
     <br>
     <div class="container container-height">
         <div class="col-md-6 d-flex justify-content-center">
-            <img src="{{asset('user/smarthome/output-onlinepngtools-12.png')}}" alt="Lighting Sensor" class="img-fluid">
+            <img src="{{asset('user/smarthome/output-onlinepngtools-12.png')}}" alt="Garage gate" class="img-fluid">
         </div>
         <div class="col-md-6 text-panel">
             <h1>Garage gate
@@ -104,7 +104,7 @@
     <br>
     <div class="container container-height t">
         <div class="col-md-6 d-flex justify-content-center">
-            <img src="{{asset('user/smarthome/output-onlinepngtools-20.png')}}" alt="Lighting Sensor" class="img-fluid">
+            <img src="{{asset('user/smarthome/output-onlinepngtools-20.png')}}" alt="Home cinema" class="img-fluid">
         </div>
         <div class="col-md-6 text-panel t">
             <h1>Home cinema
@@ -118,7 +118,7 @@
     <br>
     <div class="container container-height">
         <div class="col-md-6 d-flex justify-content-center">
-            <img src="{{asset('user/smarthome/output-onlinepngtools-14.png')}}" alt="Lighting Sensor" class="img-fluid">
+            <img src="{{asset('user/smarthome/output-onlinepngtools-14.png')}}" alt="Water heaters" class="img-fluid">
         </div>
         <div class="col-md-6 text-panel">
             <h1>Water heaters
@@ -131,7 +131,7 @@
     <br>
     <div class="container container-height t">
         <div class="col-md-6 d-flex justify-content-center">
-            <img src="{{asset('user/smarthome/output-onlinepngtools-19.png')}}" alt="Lighting Sensor" class="img-fluid">
+            <img src="{{asset('user/smarthome/output-onlinepngtools-19.png')}}" alt="Motion sensors" class="img-fluid">
         </div>
         <div class="col-md-6 text-panel t">
             <h1>Motion sensors

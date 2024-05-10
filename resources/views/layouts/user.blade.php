@@ -259,6 +259,8 @@ nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
 
                     {{-- <a href="{{route('blog')}}" class="nav-item nav-link {{ Request::is('blog') ? 'active' : '' }}">Blog</a> --}}
 
+                    <a href="{{route('iotservices')}}" class="nav-item nav-link">  IOT Development</a>
+
                     <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
                     <a href="{{route('freequote')}}" class="nav-item nav-link">Free Quote</a>
 

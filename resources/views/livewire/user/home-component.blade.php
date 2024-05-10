@@ -78,7 +78,7 @@
                 <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s">
                     <div class="blog-item bg-light rounded overflow-hidden" style="height: 500px;">
                         <div class="blog-img position-relative overflow-hidden" style="height: 300px;">
-                            <img class="img-fluid" src="{{ asset('user/photos/' . $type->photo) }}" alt="" style="width: 100%; height: 100%; object-fit: cover;">
+                            <img class="img-fluid" src="{{ asset('user/photos/' . $type->photo) }}" alt="{{$type->desc_1}}" style="width: 100%; height: 100%; object-fit: cover;">
                             <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">{{$type->name_type}}</a>
                         </div>
                         <div class="p-4" style="height: 220px;">

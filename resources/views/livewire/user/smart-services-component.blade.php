@@ -61,7 +61,9 @@ p {
     text-align: center;
     margin-bottom: 20px; /* Adjust as needed */
 }
-
+h1, h2 {
+    color: #06a3d8;
+}
 .item img {
     display: block;
     margin-left: auto;

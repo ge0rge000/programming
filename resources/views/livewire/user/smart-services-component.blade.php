@@ -3,6 +3,10 @@
         body {
     font-family: Arial, sans-serif;
 }
+body, html {
+    
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
 
 .column {
     display: flex;
@@ -131,7 +135,30 @@ h1, h2 {
     -webkit-tap-highlight-color: transparent;
     overflow: hidden;
     text-align: center;
+} .banner {
+    position: relative;
+    width: 100%;
+    height: 689px;
+    background-image: url(http://127.0.0.1:8000/iot/main.f1983ca8.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    }.container-fluid.py-5.wow.fadeInUp {
+    width: 78%;
 }
+    .content {
+    position: relative;
+    z-index: 2;
+    top: 383px;
+    }
 .home-fifth-cart-sec .solution-box h4 {
     margin-bottom: 45px;
     font-size: 22px;
@@ -157,14 +184,30 @@ h1, h2 {
 }
 p {
     font-weight: bold;
+    text-align: justify;
 }
+.sss {
+    text-align: center;
+    color: white;
+}
+
+
 img, svg {
     vertical-align: middle;
     height: 114px;
 }.col-lg-4.home-fifth-cart-clm {
     margin-bottom: 33px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 808px) {
+    .banner {
+    width: 100%;
+    height:350px;
+}
+.content {
+    position: relative;
+    z-index: 2;
+    top: 150px;
+    }
     h1, h2 {
         font-size: 1.2em;
     }
@@ -181,10 +224,15 @@ img.iot {
     width: 99%;
 }
     </style>
-     <div class=ïmg_iot>
-        <img  class="iot"src="{{asset("iot/iot.jpg")}}"/>
+ <div class="banner">
+    <div class="overlay"></div>
+    <div class="content">
+        <h1>Empowering Tomorrow, Connecting Today</h1>
+        <p class="sss">Revolutionize Your World with Our Comprehensive IoT Solutions</p>
     </div>
+</div>
     <div  class="iot" style="" data-widget="FullWidthRichText">
+        <livewire:user.items.horizontalslider-component />
 
         <div class="row">
             <div class="column ">

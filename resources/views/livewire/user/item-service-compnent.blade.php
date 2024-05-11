@@ -22,6 +22,10 @@ h1.mb-4 {
 }
 
   </style>
+  <br>
+  <br>
+  <br>
+  
   @section('title', $type->name_type)
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">

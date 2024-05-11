@@ -8,5 +8,13 @@
         <priority>0.8</priority>
       </url>
     @endforeach
+    @foreach ($services as  $service)
+    <url>
+        <loc>{{route("service_component",['name'=>$service->service_name])}}</loc>
+        <lastmod>{{$type->created_at->tz("GST")->toAtomString()}}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+      </url>
+    @endforeach
 
   </urlset>

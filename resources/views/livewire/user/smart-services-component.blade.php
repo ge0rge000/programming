@@ -1,12 +1,6 @@
 <div>
     <style>
-        body {
-    font-family: Arial, sans-serif;
-}
-body, html {
-    
-    overflow-x: hidden; /* Prevents horizontal scrolling */
-}
+
 
 .column {
     display: flex;
@@ -18,10 +12,10 @@ h1, h2 {
     color: #0044cc; /* IoT themed color */
 }
 
-h1 {
-    font-size: 2em;
+h1, h2 {
+    color: #06a3d8;
+    font-family: 'Rubik';
 }
-
 h2 {
     font-size: 1.5em;
 }
@@ -35,6 +29,10 @@ p {
     position: relative;
     background: #F2F7F9;
 }
+html, body {
+    overflow-x: hidden;
+}
+
 .home-remote-new-tittl h2 {
     text-align: center;
     font-weight: 800;
@@ -76,8 +74,9 @@ h1, h2 {
 }
 
 .item h2 {
-    font-size: 1.5em; /* Adjust the size as needed */
+
     margin-top: 10px; /* Adjust the space between image and title as needed */
+    font-family: system-ui;
 }
 
 .home-remote-new-tittl h2 {
@@ -135,15 +134,7 @@ h1, h2 {
     -webkit-tap-highlight-color: transparent;
     overflow: hidden;
     text-align: center;
-} .banner {
-    position: relative;
-    width: 100%;
-    height: 689px;
-    background-image: url(http://127.0.0.1:8000/iot/main.f1983ca8.jpg);
-    background-size: cover;
-    color: white;
-    text-align: center;
-    }
+}
     .overlay {
         position: absolute;
         top: 0;
@@ -151,7 +142,8 @@ h1, h2 {
         width: 100%;
         height: 100%;
         background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
-    }.container-fluid.py-5.wow.fadeInUp {
+    }
+    .container-fluid.py-5.wow.fadeInUp {
     width: 78%;
 }
     .content {
@@ -192,17 +184,124 @@ p {
 }
 
 
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Ensure text is visible over the image */
+    z-index: 2; /* Above the background image */
+}
+
+.content h1, .content p {
+    margin: 0; /* Remove default margin */
+}
+
 img, svg {
     vertical-align: middle;
     height: 114px;
 }.col-lg-4.home-fifth-cart-clm {
     margin-bottom: 33px;
+}        img.website_img {
+    width: 100%;
+    opacity: 0.3;
+}img.website_img, video {
+    width: 100%;  /* Ensures media files stretch to the width of the container */
+    height: auto; /* Keeps the aspect ratio intact */
+    opacity: 0.3;
+}
+
+.fixed-size {
+    width: 100%; /* Full width of the container */
+    height: 650px; /* Fixed height for all carousel items */
+}
+
+.fixed-media {
+    width: 100%;
+    height: 650px;
+    object-fit:fill ;
+}
+.gradient {
+    background: linear-gradient(180deg, #fff, #04a1d9 75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.carousel-caption {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0 0 0 / 0%)   !important;
+}
+h1.display-1.text-white.mb-md-4.animated.zoomIn {
+    font-size: 31px;
+    font-family: sans-serif;
+}
+.button-container {
+    display: flex;
+    width: 49%;  /* Take the full width to accommodate both buttons */
+    justify-content: center; /* Center the buttons horizontally */
+}
+
+.carousel-caption a {
+    flex: 1;  /* Each button will take equal space */
+    text-align: center; /* Center the text inside the buttons */
+    margin: 0 5px; /* Add a small margin between the buttons */
+}
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 59%);
+    z-index: 1;
+}
+
+/* Typing keyframes */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* Cursor blink keyframes */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+@media (min-width: 991.98px) {
+    .facts {
+        position: relative;
+        margin-top: -77px;
+        z-index: 1;
+        width: 63%;
+        /* padding: 14px; */
+    }
+}
+@media (max-width: 530px) {
+    .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+    }
+
+    .carousel-caption a {
+        width: auto;  /* Allow buttons to fit content width */
+        margin: 5px 0; /* Adjust margin for vertical stacking */
+    }
+}
+@media (max-width:975px) {
+
+    .fixed-size {
+        height: 327px; /* Smaller fixed height for smaller screens */
+    }
+
+    .fixed-media {
+        height: 327px; /* Ensures media matches the new height in smaller screens */
+    }
 }
 @media screen and (max-width: 808px) {
-    .banner {
-    width: 100%;
-    height:350px;
-}
+
 .content {
     position: relative;
     z-index: 2;
@@ -224,13 +323,26 @@ img.iot {
     width: 99%;
 }
     </style>
- <div class="banner">
-    <div class="overlay"></div>
-    <div class="content">
-        <h1>Empowering Tomorrow, Connecting Today</h1>
-        <p class="sss">Revolutionize Your World with Our Comprehensive IoT Solutions</p>
+
+<div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item fixed-size active">
+            <img class="d-block w-100 fixed-media" src="{{asset('iot/main.f1983ca8.jpg')}}" alt="Responsive image">
+
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <h1  class="display-1 text-white mb-md-4 typing-animation gradient h1" >
+                    Empowering Tomorrow Connecting Today
+
+
+                    </h1>
+                    <P class="sss">
+                        Revolutionize Your World with Our Comprehensive IoT Solutions
+                    </P>
+            </div>
+        </div>
     </div>
 </div>
+
     <div  class="iot" style="" data-widget="FullWidthRichText">
         <livewire:user.items.horizontalslider-component />
 

@@ -2,7 +2,7 @@
     <style>
         .owl-carousel .owl-item img {
     display: block;
-    width: 100%;
+    width: 100px;
     height: 89px;
 }
     </style>

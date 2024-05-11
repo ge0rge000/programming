@@ -1,0 +1,133 @@
+.dropdown-menu-multi-column {
+    width: 80vw;
+    max-height: 90vh;
+    overflow-y: auto;
+    right: -43px;
+    left: auto;
+    height: auto;
+    position: absolute;
+
+}
+p.mb-0.c {
+    color: white;
+}
+.dropdown-menu-multi-column .row {
+    width: 100%;
+    margin: 0; /* Remove default margin */
+}
+img.logo {
+    width: 167px;
+    height: 104px;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
+    background-color: white;
+}.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    margin-left: 25px;
+    padding: 35px 0;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    transition: .5s;
+}img.logo.bottom {
+    width: 231px;
+    height: 222px;
+    border-radius: 62px;
+}
+.dropdown-section .dropdown-header {
+    font-weight: bold;
+    font-size: 16px; /* Adjustable based on device size */
+    padding: 8px 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    color: #06a3da;
+}
+.navbar-dark .navbar-brand h1 {
+    color: #000000;
+}
+.dropdown-list {
+    list-style: none;
+    padding: 0 10px 10px 20px; /* Indent items under headers */
+}
+
+.dropdown-list .dropdown-item {
+    display: block;
+    padding: 2px 5px;
+    color: #282828;
+    text-decoration: none;
+}
+
+/* Responsive Styles for Tablets */
+@media (max-width: 768px) {
+    .dropdown-menu-multi-column {
+        width: 100vw; /* Full width on smaller screens */
+        right: 0;
+        left: 0; /* Center the dropdown */
+
+
+    }
+
+    .dropdown-section .dropdown-header {
+        font-size: 14px; /* Smaller font size for smaller screens */
+    }
+}
+
+/* Responsive Styles for Mobile Phones */
+@media (max-width: 576px) {
+    .dropdown-menu-multi-column {
+        position: static; /* Adjust positioning for mobile navigation */
+        width: 100%;/* Full width on smaller screens */
+    }
+
+    .col-md-4 {
+        width: 100%; /* Stack columns vertically on small screens */
+    }
+
+    .dropdown-section .dropdown-header {
+        padding: 8px; /* Reduce padding on very small screens */
+    }
+
+    .dropdown-list {
+        padding-left: 15px; /* Adjust list padding */
+    }
+}
+.float {
+    position: fixed;
+    width: 67px;
+    height: 66px;
+    bottom: 112px;
+    right: 36px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 26px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}a.float.call {
+    height: 66px;
+    bottom: 34px;
+    right: 36px;
+}a.float.call {
+    background-color: white;
+}  .call {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+        }
+
+        .fa-phone-square {
+            font-size: 48px; /* Larger icon size */
+            color: #4CAF50; /* Green color */
+        }
+        i.fa.fa-phone-square {
+    color: #06a3da;
+}
+.my-float{
+	margin-top:16px;
+}a.btn.btn-lg.btn-primary.btn-lg-square.rounded.back-to-top {
+    display: none;
+}

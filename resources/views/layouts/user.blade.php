@@ -3,36 +3,17 @@
 
 <head>
     <meta charset="utf-8">
-    <title>
-        @yield("title")
-    </title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="seobility" content="c601e3a5fcc3483f55277746db17cbf9">
-    <meta name="keywords" content="Web Development Dubai,
-     Enterprise Website Development Dubai, E-commerce Website Services Dubai,
-     Education Website Design Dubai, Startup Website Solutions Dubai, Blog Development Services Dubai,
-     Corporate Website Design Dubai, Government Website Solutions Dubai, Professional Portfolio Website Dubai,
-     Repair Website Services Dubai, Trading Company Website Development Dubai, School Website Services Dubai,
-     Mobile App Development Dubai, E-commerce App Developers Dubai, Educational App Development Dubai, Health and Fitness App Dubai,
-      Gym App Development Dubai, IoT Smart Integration Dubai, Smart Home Solutions Dubai, Wearable Technology Dubai, Healthcare IoT Solutions Dubai,
-      Industrial IoT Solutions Dubai, Digital Marketing Services Dubai, Advertising Campaigns Dubai, Social Media Management Dubai,
-       Content Marketing Services Dubai, SEO Services Dubai, Google AdWords Management Dubai, Video Animation Services Dubai, Architecture Animation Dubai,
-        3D Safety Induction Videos Dubai, 3D Animated Video Production Dubai, 3D Character Animation Dubai, 3D Interior Modeling Dubai,
-        Explainer Video Services Dubai, Cartoon Animation Services Dubai">
-
-    <meta content="We are a full-service creative branding agency in Dubai,
-    UAE expertise in branding, web design&development,Smart Home,App Development,digital marketing and logo design" name="description">
-
-    <link rel="canonical" href="{{ canonical() }}"/>
-    <meta property="og:title" content="@yield("title")">
-    <meta property="og:description" content="We are a full-service creative branding agency in Dubai,
-    UAE expertise in branding, web design&development,Smart Home,App Development,digital marketing and logo design">
-
+    <title>@yield("title")</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Dubai's premier creative branding agency specializing in web design, app development, smart home solutions, and digital marketing. Elevate your brand with our expert services.">
+    <meta name="keywords" content="Web Development Dubai, App Development Dubai, Smart Home Solutions Dubai, Digital Marketing Dubai, Branding Services Dubai">
+    <link rel="canonical" href="{{ canonical() }}">
+    <meta property="og:title" content="@yield('title')">
+    <meta property="og:description" content="Discover Dubai's premier creative branding agency specializing in web design, app development, smart home solutions, and digital marketing. Elevate your brand with our expert services.">
     <meta property="og:url" content="{{ canonical() }}">
-    <link href="{{asset("user/logo.png")}}" rel="icon">
+    <link rel="icon" href="{{ asset('user/logo.png') }}">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.c!--om">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
 
@@ -41,150 +22,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="{{asset('user/lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-    <link href="{{asset('user/lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('user/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('user/lib/animate/animate.min.css') }}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="{{asset('user/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{ asset('user/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="{{asset('user/css/style.css')}}" rel="stylesheet">
-<style>
-.dropdown-menu-multi-column {
-    width: 80vw;
-    max-height: 90vh;
-    overflow-y: auto;
-    right: -43px;
-    left: auto;
-    height: auto;
-    position: absolute;
-
-}
-p.mb-0.c {
-    color: white;
-}
-.dropdown-menu-multi-column .row {
-    width: 100%;
-    margin: 0; /* Remove default margin */
-}
-img.logo {
-    width: 167px;
-    height: 104px;
-}
-nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
-    background-color: white;
-}.navbar-dark .navbar-nav .nav-link {
-    font-family: 'Nunito', sans-serif;
-    position: relative;
-    margin-left: 25px;
-    padding: 35px 0;
-    color: #000000;
-    font-size: 18px;
-    font-weight: 600;
-    outline: none;
-    transition: .5s;
-}img.logo.bottom {
-    width: 231px;
-    height: 222px;
-    border-radius: 62px;
-}
-.dropdown-section .dropdown-header {
-    font-weight: bold;
-    font-size: 16px; /* Adjustable based on device size */
-    padding: 8px 10px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #dee2e6;
-    color: #06a3da;
-}
-.navbar-dark .navbar-brand h1 {
-    color: #000000;
-}
-.dropdown-list {
-    list-style: none;
-    padding: 0 10px 10px 20px; /* Indent items under headers */
-}
-
-.dropdown-list .dropdown-item {
-    display: block;
-    padding: 2px 5px;
-    color: #282828;
-    text-decoration: none;
-}
-
-/* Responsive Styles for Tablets */
-@media (max-width: 768px) {
-    .dropdown-menu-multi-column {
-        width: 100vw; /* Full width on smaller screens */
-        right: 0;
-        left: 0; /* Center the dropdown */
-
-
-    }
-
-    .dropdown-section .dropdown-header {
-        font-size: 14px; /* Smaller font size for smaller screens */
-    }
-}
-
-/* Responsive Styles for Mobile Phones */
-@media (max-width: 576px) {
-    .dropdown-menu-multi-column {
-        position: static; /* Adjust positioning for mobile navigation */
-        width: 100%;/* Full width on smaller screens */
-    }
-
-    .col-md-4 {
-        width: 100%; /* Stack columns vertically on small screens */
-    }
-
-    .dropdown-section .dropdown-header {
-        padding: 8px; /* Reduce padding on very small screens */
-    }
-
-    .dropdown-list {
-        padding-left: 15px; /* Adjust list padding */
-    }
-}
-.float {
-    position: fixed;
-    width: 67px;
-    height: 66px;
-    bottom: 112px;
-    right: 36px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 26px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-}a.float.call {
-    height: 66px;
-    bottom: 34px;
-    right: 36px;
-}a.float.call {
-    background-color: white;
-}  .call {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh; /* Full height of the viewport */
-        }
-
-        .fa-phone-square {
-            font-size: 48px; /* Larger icon size */
-            color: #4CAF50; /* Green color */
-        }
-        i.fa.fa-phone-square {
-    color: #06a3da;
-}
-.my-float{
-	margin-top:16px;
-}a.btn.btn-lg.btn-primary.btn-lg-square.rounded.back-to-top {
-    display: none;
-}
-</style>
+    <link href="{{ asset('user/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('user/css/a.css') }}" rel="stylesheet">
 </head>
+
 
 <body>
     <!-- Spinner Start -->

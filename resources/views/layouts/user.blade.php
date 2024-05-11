@@ -75,7 +75,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="{{route('user_home')}}" class="navbar-brand p-0">
-                <h1 class="m-0">  <img class="logo" src="{{asset("user/logo.png")}}"></i> </h1>
+                <h1 class="m-0">  <img class="logo" src="{{asset("user/logo.png")}}" alt="Website - Application - Iot Integration"></i> </h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>

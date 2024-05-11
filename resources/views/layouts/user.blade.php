@@ -7,6 +7,7 @@
         @yield("title")
     </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="seobility" content="c601e3a5fcc3483f55277746db17cbf9">
     <meta name="keywords" content="Web Development Dubai,
      Enterprise Website Development Dubai, E-commerce Website Services Dubai,
      Education Website Design Dubai, Startup Website Solutions Dubai, Blog Development Services Dubai,
@@ -23,7 +24,11 @@
     UAE expertise in branding, web design&development,Smart Home,App Development,digital marketing and logo design" name="description">
 
     <link rel="canonical" href="{{ canonical() }}"/>
+    <meta property="og:title" content="@yield("title")">
+    <meta property="og:description" content="We are a full-service creative branding agency in Dubai,
+    UAE expertise in branding, web design&development,Smart Home,App Development,digital marketing and logo design">
 
+    <meta property="og:url" content="{{ canonical() }}">
     <link href="{{asset("user/logo.png")}}" rel="icon">
 
     <!-- Google Web Fonts -->

@@ -10,7 +10,7 @@
     height: 350px !important;
 }
     </style>
-@section('title', "Top Software Development Company in Dubai | Web & App Development | Smart Home Solutions")
+@section('title', "Top Software Company in Dubai | Web & App Development | Smart Home Solutions")
     <livewire:user.items.slider-component />
 
 <!-- Navbar & Carousel End -->

@@ -14,29 +14,58 @@
     overflow: hidden; /* Keeps the image bounded within the div */
 }
 
-img.img-fluid {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Covers the div without distorting the image */
-}
 
 .p-4 p {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}.bg-primary {
+    background-color: #ffffff !important;
+}
+img.img-fluid {
+    width: 63%;
+    height: 100%;
+    object-fit: contain;
+}
+
+p.banner {
+    text-align: justify;
+    margin: 44px;
+}
+h1.banner {
+    font-size: 43px;
+    line-height: 1.3;
+    font-weight: 600;
+    background: -webkit-gradient(linear, left top, right top, from(#ed184f), color-stop(39.06%, #e117f1), color-stop(77.6%, #0084ff), to(#00c6e9));
+    background: linear-gradient(90deg, #ed184f, #e117f1 39.06%, #0084ff 77.6%, #00c6e9);
+    background: var(--Gradient-1, linear-gradient(90deg, #ed184f, #e117f1 39.06%, #0084ff 77.6%, #00c6e9));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: sans-serif;
 }
     </style>
      @section('title',str_replace('-',' ',$name))
-    <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+     <br>
+     <br>
+     <br>
+     <div class="container-fluid bg-primary ">
         <div class="row py-5">
-            <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-                <h1 class="display-4 text-white animated zoomIn">{{str_replace('-',' ',$name)}}</h1>
-
+            <div class="col-lg-6 col-12 pt-lg-12 text-center">
+                <h1 class="banner">Get Excellent {{ str_replace('-', ' ', $name) }} Services By MPTS TECH</h1>
+                <p class="banner">
+                    {{$service->desc_1}}
+                </p>
+            </div>
+            <div class="col-lg-6 col-12 pt-lg-12 text-center">
+                <img src="{{ asset('user/photos/'.$service->desc_3) }}" class="img-fluid" alt="website design company">
+                <h1 class="display-4 text-white animated zoomIn"></h1>
             </div>
         </div>
     </div>
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
+
+    <div class="container-fluid  wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container ">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">ALL TYPES OF {{str_replace('-',' ',$name)}}</h5>
              </div>

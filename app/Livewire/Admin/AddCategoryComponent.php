@@ -4,8 +4,11 @@ namespace App\Livewire\Admin;
 
 use Livewire\Component;
 use App\Models\Service;
+use Livewire\WithFileUploads;
+
 class AddCategoryComponent extends Component
 {
+    use WithFileUploads;
     public $name_service;
     public $icon;
     public $tag;
@@ -13,6 +16,7 @@ class AddCategoryComponent extends Component
     public $desc1;
     public $desc2;
     public $desc3;
+    public $photo;
     public function add_serivce(){
         $service= new Service;
         $service->name_service=$this->name_service;
@@ -22,6 +26,15 @@ class AddCategoryComponent extends Component
         $service->desc_1=$this->desc1;
         $service->desc_2=$this->desc2;
         $service->desc_3=$this->desc3;
+
+        if ($this->photo) {
+            $imageName = uniqid() . '.' . $this->photo->getClientOriginalExtension();
+            $fileContent = file_get_contents($this->photo->getRealPath());
+            $imagePath = public_path('user/photos/' . $imageName);
+            file_put_contents($imagePath, $fileContent);;
+            $service->desc_3 = $imageName;  // Saving the path in the 'photo' column
+        }
+
         $service->save();
     }
     public function render()

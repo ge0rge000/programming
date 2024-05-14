@@ -18,6 +18,6 @@ class ServiceComponent extends Component
         $service = Service::where('name_service', 'LIKE', '%' . $serviceName . '%')->first();
 
         $types=Type::where("service_id",$service->id)->get();
-        return view('livewire.user.service-component',['types'=>$types])->layout('layouts.user');
+        return view('livewire.user.service-component',['types'=>$types,'service'=>$service])->layout('layouts.user');
     }
 }

@@ -25,24 +25,27 @@ use App\Livewire\Admin\ShowServicesCategory;
 use App\Livewire\Admin\ShowTypeCategory;
 use App\Livewire\Admin\EditTypeCategory;
 use App\Livewire\Admin\ShowQuoteComponent;
+use App\Livewire\Admin\EditServiceComponent;
 
 
 
 ///seo
 Route::get('sitemap.xml',[SitemapController::class,'index']);
 
-Route::get('/admin',HomeController::class)->name("home_admin");
-Route::get('/admin/addcategory',AddCategoryComponent::class)->name("add_category");
-Route::get('/admin/typeadd',AddTypeCategory::class)->name("typeadd");
-Route::get('/admin/edit_type/{type_id}',EditTypeCategory::class)->name("edit_type");
-Route::get('/admin/showservicescategory',ShowServicesCategory::class)->name("show_category");
-Route::get('/admin/showstypecate/{service_id}',ShowTypeCategory::class)->name("show_type_category");
-Route::get('/admin/quotes',ShowQuoteComponent::class)->name("quotes_component");
-
+Route::get('/frde',HomeController::class)->name("home_admin");
+Route::get('/frde/addcategory',AddCategoryComponent::class)->name("add_category");
+Route::get('/frde/typeadd',AddTypeCategory::class)->name("typeadd");
+Route::get('/frde/edit_type/{type_id}',EditTypeCategory::class)->name("edit_type");
+Route::get('/frde/showservicescategory',ShowServicesCategory::class)->name("show_category");
+Route::get('/frde/showstypecate/{service_id}',ShowTypeCategory::class)->name("show_type_category");
+Route::get('/frde/quotes',ShowQuoteComponent::class)->name("quotes_component");
+Route::get('frde/edit_service/{id_service}',EditServiceComponent::class)->name('edit_service');
 
 ////user
 Route::get('/',HomeComponent::class)->name('user_home');
 Route::get('services',ServicesComponent::class)->name('services');
+
+
 Route::get('typeservice/{service_id}',TypeServiceComponent::class)->name('type_service');
 Route::get('freequote',FreeQuoteComponent::class)->name('freequote');
 Route::get('contact',ContactComponent::class)->name('contact');

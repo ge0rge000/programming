@@ -9,6 +9,11 @@
 .testimonial-item.bg-light.my-4 {
     height: 350px !important;
 }
+.section-title.text-center.position-relative.pb-3.mb-5.mx-auto {
+    max-width: 100% !important;
+}span.best {
+    color: black;
+}
     </style>
 @section('title', "best Software Company in Dubai - Web, App & Smart Home Solutions")
     <livewire:user.items.slider-component />
@@ -38,10 +43,10 @@
 <!-- Facts Start -->
 
 <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-    <div class="container py-5">
+    <div class="container">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h1 class="mb-0">  <span class="best"> The Best </span>Software Company  in Dubai</h1>
             <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
-            <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1>
         </div>
         <div class="row g-5">
             @foreach ($services as $service)

@@ -44,28 +44,48 @@
                     </div>
                     <p class="mb-4">Welcome to MPTS TECH, where innovation meets excellence. Our team of dedicated professionals specializes in providing top-notch digital solutions tailored to meet the unique needs of our clients. Here's what we do:
 
-                        Website Development
+
+                        </p>
+                        <p>
+                            Website Development
                         In the digital age, your website is your storefront. We design and develop stunning, user-friendly websites that not only captivate your audience but also drive engagement and conversions. Our expertise ranges from corporate websites to e-commerce platforms, ensuring your online presence is as robust as it is appealing.
 
+
+                        </p>
+                        <p>
                         Application Development
                         In the palm of your hand lies the future. We create cutting-edge mobile applications that offer seamless user experiences across various devices. Whether it's for iOS, Android, or cross-platform, our apps are designed to enhance your business operations and provide exceptional value to your users.
-
-                        Smart Home Solutions
-                        Step into the future with our smart home solutions. We integrate the latest technologies to create intelligent living spaces that are convenient, energy-efficient, and secure. From smart lighting and climate control to home security and entertainment systems, we bring automation and control to your fingertips.
-
-                        Integration Software with Hardware
-                        In a world where software and hardware must work seamlessly together, we excel in creating integrated solutions that ensure compatibility and optimal performance. Our expertise in IoT, embedded systems, and custom hardware integration allows us to develop solutions that meet the highest standards of reliability and efficiency.
-
-                        Our Vision
-                        At MPTS TECH, our vision is to drive innovation and deliver exceptional digital solutions that empower businesses and individuals alike. We believe in the power of technology to transform lives and are committed to making that transformation as smooth and impactful as possible.
-
-                        Our Values
-                        Innovation: We embrace cutting-edge technologies and methodologies to deliver innovative solutions.
-                        Quality: Excellence is at the core of everything we do. We strive to exceed expectations in every project.
-                        Customer-Centric: Our clients are our partners. We work closely with them to understand their needs and deliver solutions that drive their success.
-                        Integrity: We uphold the highest standards of professionalism and ethical conduct in all our dealings.
-                        Join us on a journey to redefine what's possible with technology. Let's create the future, together.
                         </p>
+                        <p>
+                            Smart Home Solutions
+                            Step into the future with our smart home solutions. We integrate the latest technologies to create intelligent living spaces that are convenient, energy-efficient, and secure. From smart lighting and climate control to home security and entertainment systems, we bring automation and control to your fingertips.
+
+                            </p>
+
+                            <p>
+                                Integration Software with Hardware
+                                In a world where software and hardware must work seamlessly together, we excel in creating integrated solutions that ensure compatibility and optimal performance. Our expertise in IoT, embedded systems, and custom hardware integration allows us to develop solutions that meet the highest standards of reliability and efficiency.
+
+                                </p>
+
+                                <p>
+                                    Our Vision
+                                    At MPTS TECH, our vision is to drive innovation and deliver exceptional digital solutions that empower businesses and individuals alike. We believe in the power of technology to transform lives and are committed to making that transformation as smooth and impactful as possible.
+                         </p>
+
+
+                         <p>
+                            Our Values
+                            Innovation: We embrace cutting-edge technologies and methodologies to deliver innovative solutions.
+                            Quality: Excellence is at the core of everything we do. We strive to exceed expectations in every project.
+                            Customer-Centric: Our clients are our partners. We work closely with them to understand their needs and deliver solutions that drive their success.
+                            Integrity: We uphold the highest standards of professionalism and ethical conduct in all our dealings.
+                            Join us on a journey to redefine what's possible with technology. Let's create the future, together.
+                          </p>
+
+
+
+
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>

@@ -1,4 +1,10 @@
 <div>
+    <style>
+        p.mb-4 {
+    text-align: justify;
+    line-height: 1.9;
+}
+    </style>
     @section('title', " Website, Application & integration between software and hardware ")    <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
         <div class="row py-5">
             <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -36,7 +42,30 @@
                         <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
                         <h1 class="mb-0">The Best IT Solution With 10 Years of Experience</h1>
                     </div>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                    <p class="mb-4">Welcome to MPTS TECH, where innovation meets excellence. Our team of dedicated professionals specializes in providing top-notch digital solutions tailored to meet the unique needs of our clients. Here's what we do:
+
+                        Website Development
+                        In the digital age, your website is your storefront. We design and develop stunning, user-friendly websites that not only captivate your audience but also drive engagement and conversions. Our expertise ranges from corporate websites to e-commerce platforms, ensuring your online presence is as robust as it is appealing.
+
+                        Application Development
+                        In the palm of your hand lies the future. We create cutting-edge mobile applications that offer seamless user experiences across various devices. Whether it's for iOS, Android, or cross-platform, our apps are designed to enhance your business operations and provide exceptional value to your users.
+
+                        Smart Home Solutions
+                        Step into the future with our smart home solutions. We integrate the latest technologies to create intelligent living spaces that are convenient, energy-efficient, and secure. From smart lighting and climate control to home security and entertainment systems, we bring automation and control to your fingertips.
+
+                        Integration Software with Hardware
+                        In a world where software and hardware must work seamlessly together, we excel in creating integrated solutions that ensure compatibility and optimal performance. Our expertise in IoT, embedded systems, and custom hardware integration allows us to develop solutions that meet the highest standards of reliability and efficiency.
+
+                        Our Vision
+                        At MPTS TECH, our vision is to drive innovation and deliver exceptional digital solutions that empower businesses and individuals alike. We believe in the power of technology to transform lives and are committed to making that transformation as smooth and impactful as possible.
+
+                        Our Values
+                        Innovation: We embrace cutting-edge technologies and methodologies to deliver innovative solutions.
+                        Quality: Excellence is at the core of everything we do. We strive to exceed expectations in every project.
+                        Customer-Centric: Our clients are our partners. We work closely with them to understand their needs and deliver solutions that drive their success.
+                        Integrity: We uphold the highest standards of professionalism and ethical conduct in all our dealings.
+                        Join us on a journey to redefine what's possible with technology. Let's create the future, together.
+                        </p>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>

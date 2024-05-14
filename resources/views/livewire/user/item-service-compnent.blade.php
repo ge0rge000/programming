@@ -14,6 +14,10 @@ h1.mb-4 {
     color: #06a3da;
 }p {
     text-align: justify;
+}.p-4 p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 @media (max-width: 970px) {
     img.img-fluid.w-100.rounded.mb-5 {
@@ -52,6 +56,7 @@ h1.mb-4 {
                                         <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">{{$type->name_type}}</a>
                                     </div>
                                     <div class="p-4" ">
+                                        <p>{{$type->small_desc}}</p>
                                         <a class="text-uppercase" href="{{route('type_service_component',['name'=>$type->service->name_service,'name_type'=>$type->name_type])}}">Read More <i class="bi bi-arrow-right"></i></a>
 
                                     </div>

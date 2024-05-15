@@ -15,11 +15,7 @@
 }
 
 
-.p-4 p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}.bg-primary {
+.bg-primary {
     background-color: #ffffff !important;
 }
 img.img-fluid {
@@ -83,7 +79,7 @@ h1.banner {
                                 <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">{{$type->name_type}}</a>
                             </div>
                             <div class="p-4" style="height: 220px;">
-                                <p>{{$type->small_desc}}</p>
+                                <p>{{$type->desc_3}}</p>
                                 <a class="btn btn-lg btn-primary rounded" href="{{str_replace('%20', '-',route('type_service_component',['name'=>$name,'name_type'=>$type->name_type]))}}">     <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>

@@ -1,11 +1,7 @@
 <div>
 
     <style>
-.p-4 p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
+
 .testimonial-item.bg-light.my-4 {
     height: 350px !important;
 }

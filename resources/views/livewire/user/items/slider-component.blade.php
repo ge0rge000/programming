@@ -99,7 +99,7 @@ h1.display-1.text-white.mb-md-4.animated.zoomIn {
                 <h1 class="display-1 text-white mb-md-4 typing-animation" >Website Design
                 </h1>
                 <div class="button-container">
-                    <a href="{{route('service_component',['name'=>"Website Design"])}}" class="btn btn-primary py-md-3 px-md-5 animated slideInLeft">Websites</a>
+                    <a href="{{route('service_component',['name'=>"Web Development"])}}" class="btn btn-primary py-md-3 px-md-5 animated slideInLeft">Websites</a>
                     <a href="{{route('contact')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                 </div>
             </div>

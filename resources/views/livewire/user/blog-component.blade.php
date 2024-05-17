@@ -98,7 +98,8 @@
                                     </div>
                                     <h4 class="mb-3">{{$blog->question}}</h4>
                                     <p class="text-truncate">{{$blog->answer}}</p>
-                                    <a class="text-uppercase" href="{{route("blog_component",['name'=>$blog->question])}}">Read More <i class="bi bi-arrow-right"></i></a>
+                                    <a class="text-uppercase" href="{{route("id_blog",['id_blog'=>$blog->id])}}">
+                                                  Read More <i class="bi bi-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +115,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-       
+
                     <!-- Category Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
@@ -138,7 +139,7 @@
                         @foreach ($blogs_recent as $blog_recent )
                         <div class="d-flex rounded overflow-hidden mb-3">
                             <img class="img-fluid" src="{{asset('user/photos/'.$blog_recent->photo)}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                            <a href="{{route("blog_component",['name'=>$blog->question])}}"class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">
+                            <a href="{{route("id_blog",['id_blog'=>$blog->id])}}"class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">
                                {{$blog_recent->question}}
                             </a>
                         </div>

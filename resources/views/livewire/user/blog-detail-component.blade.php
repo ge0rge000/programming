@@ -64,7 +64,7 @@
                     @foreach ($blogs_recent as $blog_recent )
                     <div class="d-flex rounded overflow-hidden mb-3">
                         <img class="img-fluid" src="{{asset('user/photos/'.$blog_recent->photo)}}" style="width: 100px; height: 100px; object-fit: cover;" alt="">
-                        <a href="{{route("blog_component",['name'=>$blog->question])}}"class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">
+                        <a href="{{route("id_blog",['id_blog'=>$blog->id])}}"class="h5 fw-semi-bold d-flex align-items-center bg-light px-3 mb-0">
                            {{$blog_recent->question}}
                         </a>
                     </div>
@@ -100,7 +100,7 @@
                         <a href="" class="btn btn-light m-1">Consulting</a>
                     </div>
                 </div>
-   
+
             </div>
         </div>
     </div>

@@ -58,7 +58,7 @@ Route::get('about',AboutComponent::class)->name('about');
 Route::get('blog',BlogComponent::class)->name('blog');
 Route::get('service/{name}',ServiceComponent::class)->name('service_component');
 Route::get('service/{name}/{name_type}',ItemServiceCompnent::class)->name('type_service_component');
-Route::get('blog/{name}',BlogDetailComponent::class)->name('blog_component');
+Route::get('blog/{id_blog}',BlogDetailComponent::class)->name('id_blog');
 
 Route::get('iot-development',SmartServicesComponent::class)->name('iotservices');
 

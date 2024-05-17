@@ -13,6 +13,10 @@
     display: block;
     color: inherit; /* Maintains the text color */
     text-decoration: none; /* Removes underline */
+}h2 {
+    color: #06a3da;
+}p {
+    text-align: justify;
 }
 
     </style>
@@ -219,7 +223,9 @@
                     </div>
                 </div>
             </div>
+
         </div>
+        <livewire:user.items.seo-pargraph />
     </div>
 </div>
     <!-- Team End -->

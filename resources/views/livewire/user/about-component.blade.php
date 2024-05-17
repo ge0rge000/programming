@@ -5,6 +5,7 @@
     line-height: 1.9;
 }
     </style>
+
  @section('title', "Web Design Dubai | Web Design Company Dubai | Best Web Design Sharjah UAE | Web Design Services Dubai") <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
         <div class="row py-5">
             <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -102,14 +103,14 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+557474526</h4>
+                            <h4 class="text-primary mb-0">+971557474526</h4>
                         </div>
                     </div>
                     <a href="{{route('freequote')}}" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{asset('user/img/about.jpg')}}" style="object-fit: cover;">
+                        <livewire:user.items.seo-pargraph />
                     </div>
                 </div>
             </div>

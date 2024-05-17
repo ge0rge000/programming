@@ -32,7 +32,9 @@ h5 {
 }
 
 }
-
+h2 {
+    color: #06a3da;
+}
   </style>
   <br>
   <br>
@@ -47,7 +49,7 @@ h5 {
                         <img class="img-fluid w-100 rounded mb-5"src="{{ asset('user/photos/' . $type->photo) }}" alt="">
                         <h1 class="mb-4">{{$type->name_type}}</h1>
                         <p>{{$type->small_desc}}</p>
-                        <h1 class="mb-4">{{$type->desc_1}}</h1>
+                        <h2 class="mb-4">{{$type->desc_1}}</h2>
                         <p>{{$type->desc_2}}</p>
                     </div>
 
@@ -99,6 +101,7 @@ h5 {
                         <img src="img/blog-1.jpg" alt="" class="img-fluid rounded">
                     </div>
                     <!-- Image End -->
+                    <livewire:user.items.seo-pargraph />
 
                     <!-- Tags Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">

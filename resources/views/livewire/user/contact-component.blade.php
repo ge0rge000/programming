@@ -6,7 +6,10 @@
     border-color: #badbcc;
 }iframe {
     width: 100%;
+}p {
+    text-align: justify;
 }
+
     </style>
 @section('title', "Web Design Dubai | Web Design Company Dubai | Best Web Design Sharjah UAE | Web Design Services Dubai")<div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
         <div class="row py-5">
@@ -123,4 +126,8 @@
         </div>
     </div>
     <livewire:user.items.horizontalslider-component />
+    <div class="container">
+        <livewire:user.items.seo-pargraph />
+    </div>
+
 </div>

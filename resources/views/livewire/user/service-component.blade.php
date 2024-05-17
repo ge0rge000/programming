@@ -27,6 +27,10 @@ img.img-fluid {
 p.banner {
     text-align: justify;
     margin: 44px;
+}h2 {
+    color: #06a3da;
+}p {
+    text-align: justify;
 }
 h1.banner {
     font-size: 43px;
@@ -103,5 +107,7 @@ h1.banner {
     <br>
 
     <livewire:user.items.choose-component />
-
+    <div class="container">
+        <livewire:user.items.seo-pargraph />
+    </div>
 </div>

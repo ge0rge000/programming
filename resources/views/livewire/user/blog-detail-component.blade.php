@@ -37,6 +37,7 @@
                     <img class="img-fluid w-100 rounded mb-5" src="{{ asset('user/photos/' . $blog->photo) }}" alt="">
                     <h1 class="mb-4">{{ $blog->question }}</h1>
                     <p>{{ $blog->answer }}</p>
+                    <livewire:user.items.seo-pargraph />
                 </div>
             </div>
             <div class="col-lg-4">
@@ -72,7 +73,7 @@
 
 
                 </div>
-                <!-- Recent Post End -->
+
 
                 <!-- Image Start -->
                 <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">

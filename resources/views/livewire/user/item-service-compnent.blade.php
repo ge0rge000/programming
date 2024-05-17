@@ -38,7 +38,7 @@ h5 {
   <br>
   <br>
 
-  @section('title', $type->name_type ."in Dubai")
+  @section('title', $type->name_type )
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">

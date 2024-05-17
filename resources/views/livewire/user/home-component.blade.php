@@ -16,7 +16,7 @@
 }
 
     </style>
-@section('title', "Create website with Cheap price and professional   ")
+@section('title', "Create website with Cheap price and professional  ")
     <livewire:user.items.slider-component />
 
 <!-- Navbar & Carousel End -->

@@ -16,13 +16,9 @@ p.mb-0.c {
     margin: 0; /* Remove default margin */
 }
 img.logo {
-<<<<<<< HEAD
     width: 145px;
     height: 99px;
-=======
-    width: 167px;
-    height: 104px;
->>>>>>> parent of d459504... asdasdsad
+
 }
 nav.navbar.navbar-expand-lg.navbar-dark.px-5.py-3.py-lg-0 {
     background-color: white;

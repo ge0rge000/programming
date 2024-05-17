@@ -28,7 +28,7 @@
             }
         }
     </style>
-
+@section('title', "Web Design Dubai | Web Design Company Dubai | Best Web Design Sharjah UAE | Web Design Services Dubai")
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-8 blog-detail">

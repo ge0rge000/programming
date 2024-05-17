@@ -16,7 +16,7 @@
 }
 
     </style>
-@section('title', "Create website with Cheap price and professional  ")
+@section('title', "Web Design Dubai | Web Design Company Dubai | Best Web Design Sharjah UAE | Web Design Services Dubai")
     <livewire:user.items.slider-component />
 
 <!-- Navbar & Carousel End -->

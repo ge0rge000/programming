@@ -14,11 +14,23 @@ h1.mb-4 {
     color: #06a3da;
 }p {
     text-align: justify;
+}.card-link {
+    display: block;
+    color: inherit;  /* Inherits text color */
+    text-decoration: none;  /* Removes underline */
+}
+h5 {
+    color: white;
 }
 @media (max-width: 970px) {
     img.img-fluid.w-100.rounded.mb-5 {
     height: 350px;
+}.card-link {
+    display: block;
+    color: inherit;  /* Inherits text color */
+    text-decoration: none;  /* Removes underline */
 }
+
 }
 
   </style>
@@ -45,25 +57,26 @@ h1.mb-4 {
                         <livewire:user.items.smart-home-component />
                         @endif
                         @foreach ($types as $type)
-                            <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+                        <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
+                            <a href="{{route('type_service_component',['name'=>$type->service->name_service,'name_type'=>$type->name_type])}}" class="card-link">
                                 <div class="blog-item bg-light rounded overflow-hidden" style="height: 450px; width: 100%;">
                                     <div class="blog-img position-relative overflow-hidden" style="height: 300px;">
                                         <img class="img-fluid" src="{{ asset('user/photos/' . $type->photo) }}" alt="" style="width: 100%; height: 100%; object-fit: cover;">
-                                        <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4" href="">{{$type->name_type}}</a>
+                                        <div class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"><h5>{{ $type->name_type }}</h5></div>
                                     </div>
-                                    <div class="p-4" ">
+                                    <div class="p-4">
                                         <p>{{$type->desc_3}}</p>
-                                        <a class="text-uppercase" href="{{route('type_service_component',['name'=>$type->service->name_service,'name_type'=>$type->name_type])}}">Read More <i class="bi bi-arrow-right"></i></a>
-
+                                        <span class="text-uppercase">Read More <i class="bi bi-arrow-right"></i></span>
                                     </div>
                                 </div>
-                            </div>
-                            <!-- Check if the current iteration number is divisible by 3 -->
-                            @if ($loop->iteration % 3 == 0)
-                                <div class="w-100">
-                                    <br></div> <!-- Bootstrap 4+ responsive utility class for full width -->
-                            @endif
-                        @endforeach
+                            </a>
+                        </div>
+                        <!-- Check if the current iteration number is divisible by 3 -->
+                        @if ($loop->iteration % 3 == 0)
+                            <div class="w-100"><br></div> <!-- Bootstrap 4+ responsive utility class for full width -->
+                        @endif
+                    @endforeach
+
                     </div>
 
                 </div>
@@ -95,16 +108,16 @@ h1.mb-4 {
                         <div class="d-flex flex-wrap m-n1">
                             <a href="" class="btn btn-light m-1">Design</a>
                             <a href="" class="btn btn-light m-1">Development</a>
-                            <a href="" class="btn btn-light m-1">Marketing</a>
+                            <a href="" class="btn btn-light m-1">APPS</a>
                             <a href="" class="btn btn-light m-1">SEO</a>
                             <a href="" class="btn btn-light m-1">Writing</a>
                             <a href="" class="btn btn-light m-1">Consulting</a>
-                            <a href="" class="btn btn-light m-1">Design</a>
-                            <a href="" class="btn btn-light m-1">Development</a>
+                            <a href="" class="btn btn-light m-1">IOS APPS</a>
+                            <a href="" class="btn btn-light m-1">ANDRIOD APPS</a>
                             <a href="" class="btn btn-light m-1">Marketing</a>
-                            <a href="" class="btn btn-light m-1">SEO</a>
-                            <a href="" class="btn btn-light m-1">Writing</a>
-                            <a href="" class="btn btn-light m-1">Consulting</a>
+                            <a href="" class="btn btn-light m-1">E-COMMERCE WEBSITE</a>
+                            <a href="" class="btn btn-light m-1">SMART HOME</a>
+                            <a href="" class="btn btn-light m-1">Website</a>
                         </div>
                     </div>
 

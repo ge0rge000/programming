@@ -93,8 +93,18 @@ h1.display-1.text-white.mb-md-4.animated.zoomIn {
     </style>
  <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
-        <!-- Each carousel item should be responsive -->
-        <div class="carousel-item fixed-size active">
+        <div class="carousel-item fixed-size active" >
+            <img class="d-block w-100 fixed-media" src="{{asset('user/slider/Website-Design-Service-in-Dubai-UAE-768x690.jpg')}}" alt="Responsive image">
+            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                <h1 class="display-1 text-white mb-md-4 typing-animation" >Website Design
+                </h1>
+                <div class="button-container">
+                    <a href="{{route('service_component',['name'=>"Web Development"])}}" class="btn btn-primary py-md-3 px-md-5 animated slideInLeft">Websites</a>
+                    <a href="{{route('contact')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item fixed-size ">
             <video autoplay loop playsinline muted class="d-block w-100 fixed-media">
                 <source src="{{asset('user/slider/company.mp4')}}" type="video/mp4">
             </video>
@@ -102,17 +112,6 @@ h1.display-1.text-white.mb-md-4.animated.zoomIn {
                 <h1 class="display-1 text-white mb-md-4 typing-animation" >SMART HOME</h1>
                 <div class="button-container">
                     <a href="{{route('type_service_component',['name'=>"Smart Integration(IoT)",'name_type'=>"Smart Home"])}}" class="btn btn-primary py-md-3 px-md-5 animated slideInLeft">Smart Home</a>
-                    <a href="{{route('contact')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item fixed-size" >
-            <img class="d-block w-100 fixed-media" src="{{asset('user/slider/Website-Design-Service-in-Dubai-UAE-768x690.jpg')}}" alt="Responsive image">
-            <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                <h1 class="display-1 text-white mb-md-4 typing-animation" >Website Design
-                </h1>
-                <div class="button-container">
-                    <a href="{{route('service_component',['name'=>"Web Development"])}}" class="btn btn-primary py-md-3 px-md-5 animated slideInLeft">Websites</a>
                     <a href="{{route('contact')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                 </div>
             </div>

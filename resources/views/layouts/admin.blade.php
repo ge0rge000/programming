@@ -392,6 +392,10 @@ data-open="click" data-menu="vertical-content-menu" data-col="2-columns">
                 <li ><a class="menu-item" href="{{route("quotes_component")}}" data-i18n="nav.dash.ecommerce">show Quotes</a>
                 </li>
 
+                <li ><a class="menu-item" href="{{route("add_blog")}}" data-i18n="nav.dash.ecommerce">  add blog</a>
+                </li>
+
+
               </ul>
             </li>
               </ul>

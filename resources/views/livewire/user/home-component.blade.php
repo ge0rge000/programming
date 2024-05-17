@@ -9,9 +9,14 @@
     max-width: 100% !important;
 }span.best {
     color: black;
+}.card-link {
+    display: block;
+    color: inherit; /* Maintains the text color */
+    text-decoration: none; /* Removes underline */
 }
+
     </style>
-@section('title', "best Software Company in Dubai - Web, App & Smart Home Solutions")
+@section('title', "Create website with Cheap price and professional   ")
     <livewire:user.items.slider-component />
 
 <!-- Navbar & Carousel End -->
@@ -47,20 +52,21 @@
         <div class="row g-5">
             @foreach ($services as $service)
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                    <div class="service-icon">
-                        {!! $service->icon !!}
-
+                <a class="card-link" href="{{ route('service_component', ['name' => urlencode(trim(str_replace(" ",'-',$service->name_service)))]) }}">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon">
+                            {!! $service->icon !!}
+                        </div>
+                        <h4 class="mb-3">{{$service->name_service}}</h4>
+                        <p class="m-0">{{$service->small_desc}}</p>
+                        <div class="btn btn-lg btn-primary rounded">
+                            <i class="bi bi-arrow-right"></i>
+                        </div>
                     </div>
-                    <h4 class="mb-3">{{$service->name_service}}</h4>
-                    <p class="m-0">{{$service->small_desc}}</p>
-
-                    <a class="btn btn-lg btn-primary rounded" href="{{ route('service_component', ['name' => urlencode(trim(str_replace(" ",'-',$service->name_service)))]) }}">
-                        <i class="bi bi-arrow-right"></i>
-                    </a>
-                </div>
+                </a>
             </div>
-            @endforeach
+        @endforeach
+
 
 
         </div>

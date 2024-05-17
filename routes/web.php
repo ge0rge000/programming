@@ -12,6 +12,9 @@ use App\Livewire\User\ServicesComponent;
 use App\Livewire\User\ContactComponent;
 use App\Livewire\User\AboutComponent;
 use App\Livewire\User\BlogComponent;
+use App\Livewire\User\BlogDetailComponent;
+
+
 use App\Livewire\User\ServiceComponent;
 use App\Livewire\User\ItemServiceCompnent;
 use App\Livewire\User\SmartServicesComponent;
@@ -26,6 +29,7 @@ use App\Livewire\Admin\ShowTypeCategory;
 use App\Livewire\Admin\EditTypeCategory;
 use App\Livewire\Admin\ShowQuoteComponent;
 use App\Livewire\Admin\EditServiceComponent;
+use App\Livewire\Admin\AddBlogComponent;
 
 
 
@@ -40,6 +44,7 @@ Route::get('/frde/showservicescategory',ShowServicesCategory::class)->name("show
 Route::get('/frde/showstypecate/{service_id}',ShowTypeCategory::class)->name("show_type_category");
 Route::get('/frde/quotes',ShowQuoteComponent::class)->name("quotes_component");
 Route::get('frde/edit_service/{id_service}',EditServiceComponent::class)->name('edit_service');
+Route::get('/frde/addblog',AddBlogComponent::class)->name("add_blog");
 
 ////user
 Route::get('/',HomeComponent::class)->name('user_home');
@@ -53,7 +58,9 @@ Route::get('about',AboutComponent::class)->name('about');
 Route::get('blog',BlogComponent::class)->name('blog');
 Route::get('service/{name}',ServiceComponent::class)->name('service_component');
 Route::get('service/{name}/{name_type}',ItemServiceCompnent::class)->name('type_service_component');
+Route::get('blog/{name}',BlogDetailComponent::class)->name('blog_component');
 
 Route::get('iot-development',SmartServicesComponent::class)->name('iotservices');
+
 
 

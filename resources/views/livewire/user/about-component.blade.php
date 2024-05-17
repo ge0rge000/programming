@@ -3,6 +3,8 @@
         p.mb-4 {
     text-align: justify;
     line-height: 1.9;
+}p {
+    text-align: justify;
 }
     </style>
 

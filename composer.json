@@ -11,7 +11,9 @@
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "livewire/livewire": "^3.4",
+        "romanzipp/laravel-seo": "^2.7",
         "salamwaddah/laravel-canonical": "^1.1",
+        "spatie/schema-org": "^3.23",
         "verschuur/laravel-robotstxt": "^5.0"
     },
     "require-dev": {

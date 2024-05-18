@@ -6,11 +6,13 @@
     <title>@yield("title")</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Discover Dubai's premier creative branding agency specializing in web design, app development, smart home solutions, and digital marketing. Elevate your brand with our expert services.">
-    <meta name="keywords" content="smart home, website development, iOS application, Android application, IoT integration, smart home installation, MPTS Tech">
+    <meta name="keywords" content="website Design, smart home,  iOS application, Android application, IoT integration, smart home installation>
 
     <link rel="canonical" href="{{ canonical() }}">
+
     <meta property="og:title" content="@yield('title')">
-    <meta property="og:description" content="Discover Dubai's premier creative branding agency specializing in web design, app development, smart home solutions, and digital marketing. Elevate your brand with our expert services.">
+    <meta property="og:description" content="Discover Dubai's premier creative branding agency specializing in web design,
+     app development, smart home solutions, and digital marketing. Elevate your brand with our expert services.">
     <meta property="og:url" content="{{ canonical() }}">
     <link rel="icon" href="{{ asset('user/logo.png') }}">
 
@@ -32,7 +34,13 @@
     <!-- Template Stylesheet -->
     <link href="{{ asset('user/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('user/css/a.css') }}" rel="stylesheet">
-    <!-- Google Tag Manager -->
+    @if (isset($schemaData))
+    @foreach ($schemaData as $schema)
+        <script type="application/ld+json">
+            {!! $schema->toScript() !!}
+        </script>
+    @endforeach
+@endif
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

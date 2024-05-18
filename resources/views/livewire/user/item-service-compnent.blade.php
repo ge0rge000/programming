@@ -81,6 +81,7 @@ h2 {
 
                     </div>
 
+
                 </div>
 
                 <div class="col-lg-4">
@@ -97,13 +98,7 @@ h2 {
                         </div>
                     </div>
 
-                    <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
-                        <img src="img/blog-1.jpg" alt="" class="img-fluid rounded">
-                    </div>
-                    <!-- Image End -->
-                    <livewire:user.items.seo-pargraph />
 
-                    <!-- Tags Start -->
                     <div class="mb-5 wow slideInUp" data-wow-delay="0.1s">
                         <div class="section-title section-title-sm position-relative pb-3 mb-4">
                             <h3 class="mb-0">Tag Cloud</h3>
@@ -126,6 +121,12 @@ h2 {
 
 
                 </div>
+                <div class="col-lg-12">
+
+                    <livewire:user.items.seo-pargraph />
+                </div>
+
+
             </div>
         </div>
     </div>

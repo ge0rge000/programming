@@ -36,14 +36,16 @@ h1.banner {
     font-size: 43px;
     line-height: 1.3;
     font-weight: 600;
-    background: -webkit-gradient(linear, left top, right top, from(#ed184f), color-stop(39.06%, #e117f1), color-stop(77.6%, #0084ff), to(#00c6e9));
-    background: linear-gradient(90deg, #ed184f, #e117f1 39.06%, #0084ff 77.6%, #00c6e9);
-    background: var(--Gradient-1, linear-gradient(90deg, #ed184f, #e117f1 39.06%, #0084ff 77.6%, #00c6e9));
+    background: -webkit-gradient(linear, left top, right top, from(#06a3da), color-stop(39.06%, #06a3da), color-stop(77.6%, #0084ff), to(#00c6e9));
+    background: linear-gradient(90deg, #06a3da, #06a3da 39.06%, #0084ff 77.6%, #00c6e9);
+    background: var(--Gradient-1, linear-gradient(90deg, #06a3da, #06a3da 39.06%, #0084ff 77.6%, #00c6e9));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: sans-serif;
-}a.position-absolute.top-0.start-0.bg-primary.text-white.rounded-end.mt-5.py-2.px-4 {
+}
+
+a.position-absolute.top-0.start-0.bg-primary.text-white.rounded-end.mt-5.py-2.px-4 {
     color: #06a3da !important;
     font-weight: bold;
 }

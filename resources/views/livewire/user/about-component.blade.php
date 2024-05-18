@@ -5,6 +5,10 @@
     line-height: 1.9;
 }p {
     text-align: justify;
+}h2 {
+    color: #06a3da;
+}p {
+    text-align: justify;
 }
     </style>
 
@@ -112,13 +116,16 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <livewire:user.items.seo-pargraph />
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
+                         src="{{'user/img/about.jpg'}}" style="object-fit: cover; visibility: visible; animation-delay: 0.9s; animation-name: zoomIn;">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- About End -->
+    <div class="container">
+        <livewire:user.items.seo-pargraph />
+    </div>
     <livewire:user.items.horizontalslider-component />
 
 

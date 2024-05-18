@@ -66,10 +66,10 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light "><i class="fa fa-map-marker-alt me-2"></i>Dubai - al barsha 1 - B8 Building - Office No. 501
+                    <small class="me-3 text-light "><i class="fa fa-map-marker"></i>Dubai - al barsha 1 - B8 Building - Office No. 501
                     </small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+971557474526</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@mptstech.com</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone"></i>+971557474526</small>
+                    <small class="text-light"><i class="fa fa-envelope-open "></i>info@mptstech.com</small>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">

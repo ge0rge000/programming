@@ -57,7 +57,7 @@
         <div class="row g-5">
             @foreach ($services as $service)
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
-                <a class="card-link" href="{{ route('service_component', ['name' => urlencode(trim(str_replace(" ",'-',$service->name_service)))]) }}">
+                <a class="card-link" href="{{ route('service_component', ['name' => $service->name_service]) }}">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
                             {!! $service->icon !!}
@@ -88,7 +88,7 @@
         <div class="row">
             @foreach ($service->types->shuffle()->take(3) as $type)  <!-- Take only three types -->
                 <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s">
-                    <a href="{{str_replace('%20', '-', route('type_service_component', ['name'=>$service->name_service, 'name_type'=>$type->name_type]))}}">
+                    <a href="{{ route('type_service_component', ['name'=>$service->name_service, 'name_type'=>$type->name_type])}}">
 
                     <div class="blog-item bg-light rounded overflow-hidden" style="height: 500px;">
                         <div class="blog-img position-relative overflow-hidden" style="height: 300px;">
@@ -97,7 +97,7 @@
                         </div>
                         <div class="p-4" style="height: 220px;">
                             <p>{{$type->desc_3}}</p>
-                            <a class="btn btn-lg btn-primary rounded" href="{{str_replace('%20', '-', route('type_service_component', ['name'=>$service->name_service, 'name_type'=>$type->name_type]))}}">
+                            <a class="btn btn-lg btn-primary rounded" href="{{ route('type_service_component', ['name'=>$service->name_service, 'name_type'=>$type->name_type])}}">
                                 <i class="bi bi-arrow-right"></i>
                             </a>
                         </div>

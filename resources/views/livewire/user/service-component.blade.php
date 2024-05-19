@@ -78,7 +78,7 @@ a.position-absolute.top-0.start-0.bg-primary.text-white.rounded-end.mt-5.py-2.px
              <div class="row">
                 @foreach ($types as $type)
                     <div class="col-md-4 wow slideInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
-                        <a href="{{str_replace('%20', '-', route('type_service_component', ['name'=>$type->Service->name_service, 'name_type'=>$type->name_type]))}}">
+                        <a href="{{route('type_service_component',['name'=>$type->Service->name_service, 'name_type'=>$type->name_type])}}">
 
                         <div class="blog-item bg-light rounded overflow-hidden" style="height: 500px; width: 100%;">
                             <div class="blog-img position-relative overflow-hidden" style="height: 300px;">
@@ -87,7 +87,7 @@ a.position-absolute.top-0.start-0.bg-primary.text-white.rounded-end.mt-5.py-2.px
                             </div>
                             <div class="p-4" style="height: 220px;">
                                 <p>{{$type->desc_3}}</p>
-                                <a class="btn btn-lg btn-primary rounded" href="{{str_replace('%20', '-',route('type_service_component',['name'=>$name,'name_type'=>$type->name_type]))}}">     <i class="bi bi-arrow-right"></i></a>
+                                <a class="btn btn-lg btn-primary rounded" href="{{route('type_service_component',['name'=>$name,'name_type'=>$type->name_type])}}">     <i class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </a>

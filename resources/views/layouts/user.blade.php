@@ -125,7 +125,7 @@
                                         @if ($service->types->isNotEmpty())
                                         <ul class="dropdown-list">
                                             @foreach ($service->types as $type)
-                                            <li><a href="{{str_replace('%20', '-', route('type_service_component', ['name'=>$service->name_service, 'name_type'=>$type->name_type]))}}" class="dropdown-item">{{ $type->name_type }}</a></li>
+                                            <li><a href="{{route('type_service_component', ['name'=>$service->name_service, 'name_type'=>$type->name_type])}}" class="dropdown-item">{{ $type->name_type }}</a></li>
                                             @endforeach
                                         </ul>
                                         @endif

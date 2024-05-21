@@ -57,9 +57,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner"></div>
-    </div>
+  
     <!-- Spinner End -->
 
 
@@ -75,10 +73,10 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light "><i class="fa fa-map-marker"></i>Dubai - al barsha 1 - B8 Building - Office No. 501
+                    <small class="me-3 text-light "><i class="fa fa-map-marker"></i> Dubai - al barsha 1 - B8 Building - Office No. 501
                     </small>
-                    <small class="me-3 text-light"><i class="fa fa-phone"></i>+971557474526</small>
-                    <small class="text-light"><i class="fa fa-envelope-open "></i>info@mptstech.com</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone"></i> +971557474526 - +97143300310</small>
+                    <small class="text-light"><i class="fa fa-envelope-open "></i> info@mptstech.com</small>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
@@ -189,7 +187,10 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
-                                <p class="mb-0 c">+971557474526</p>
+                                <p class="mb-0 c"> +971557474526 <br> +97143300310
+                                </p>
+
+
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>

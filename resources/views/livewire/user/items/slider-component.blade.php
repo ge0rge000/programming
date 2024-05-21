@@ -16,7 +16,7 @@
 
 .fixed-media {
     width: 100%;
-    height: 650px;
+    height: 738px;
     object-fit: scale-down;
 }
 
@@ -105,6 +105,9 @@ h1.display-1.text-white.mb-md-4.animated.zoomIn {
             </div>
         </div>
         <div class="carousel-item fixed-size ">
+
+            <img class="d-block w-100 fixed-media" src="{{asset('user/slider/woman-controlling-smart-home-appliances.jpg')}}" alt="Responsive image">
+
             <video autoplay loop playsinline muted class="d-block w-100 fixed-media">
                 <source src="{{asset('user/slider/company.mp4')}}" type="video/mp4">
             </video>

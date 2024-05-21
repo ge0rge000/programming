@@ -47,10 +47,38 @@
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
-                        <h1 class="mb-0">The Best IT Solution With 10 Years of Experience</h1>
+                        <h1 class="mb-0">Welcome to MPTS Tech</h1>
                     </div>
-                    <p class="mb-4">Welcome to MPTS TECH, where innovation meets excellence. Our team of dedicated professionals specializes in providing top-notch digital solutions tailored to meet the unique needs of our clients. Here's what we do:
 
+                    <section class="content" id="services">
+                        <div class="container">
+                            <h2>Our Services</h2>
+                            <p><strong>Web Development:</strong> Our web development team creates stunning, responsive websites that not only look great but also perform seamlessly across all devices. From corporate websites to e-commerce platforms, we build web solutions that enhance your online presence and engage your audience.</p>
+                            <p><strong>Mobile App Development:</strong> In today's mobile-centric world, having a top-notch mobile application is essential. We develop custom mobile apps for both iOS and Android platforms, ensuring a smooth and engaging user experience. Our apps are designed to meet your specific business goals and provide value to your users.</p>
+                            <p><strong>Smart Home Installation:</strong> Bring your home into the future with our smart home installation services. We integrate cutting-edge IoT technologies to create a connected living environment that enhances convenience, security, and energy efficiency.</p>
+                            <p><strong>IoT Integration:</strong> The Internet of Things (IoT) is revolutionizing the way we interact with technology. Our IoT integration services help businesses harness the power of connected devices to improve operations, gather valuable data, and create innovative products and services.</p>
+                        </div>
+                    </section>
+
+                    <section class="content" id="process">
+                        <div class="container">
+                            <h2>Our Process</h2>
+                            <p><strong>Consultation:</strong> We start by understanding your business goals, target audience, and project requirements.</p>
+                            <p><strong>Planning and Design:</strong> Our team creates a detailed project plan and designs mockups for your approval.</p>
+                            <p><strong>Development:</strong> Using best practices and the latest technologies, we develop your website or application.</p>
+                            <p><strong>Testing:</strong> We rigorously test your project to ensure it meets our high standards of quality and performance.</p>
+                            <p><strong>Launch and Support:</strong> After launch, we provide ongoing support and maintenance to keep your digital assets running smoothly.</p>
+                        </div>
+                    </section>
+
+                    <section class="content" id="contact">
+                        <div class="container">
+                            <h2>Get in Touch</h2>
+                            <p>Ready to take your digital presence to the next level? Contact us today to discuss your project and see how MPTS Tech can help you achieve your goals.</p>
+                            <p><strong>Email:</strong> <a href="mailto:info@mptstech.com">info@mptstech.com</a></p>
+
+                        </div>
+                    </section>
 
                         </p>
                         <p>
@@ -58,37 +86,7 @@
                         In the digital age, your website is your storefront. We design and develop stunning, user-friendly websites that not only captivate your audience but also drive engagement and conversions. Our expertise ranges from corporate websites to e-commerce platforms, ensuring your online presence is as robust as it is appealing.
 
 
-                        </p>
-                        <p>
-                        Application Development
-                        In the palm of your hand lies the future. We create cutting-edge mobile applications that offer seamless user experiences across various devices. Whether it's for iOS, Android, or cross-platform, our apps are designed to enhance your business operations and provide exceptional value to your users.
-                        </p>
-                        <p>
-                            Smart Home Solutions
-                            Step into the future with our smart home solutions. We integrate the latest technologies to create intelligent living spaces that are convenient, energy-efficient, and secure. From smart lighting and climate control to home security and entertainment systems, we bring automation and control to your fingertips.
-
-                            </p>
-
-                            <p>
-                                Integration Software with Hardware
-                                In a world where software and hardware must work seamlessly together, we excel in creating integrated solutions that ensure compatibility and optimal performance. Our expertise in IoT, embedded systems, and custom hardware integration allows us to develop solutions that meet the highest standards of reliability and efficiency.
-
-                                </p>
-
-                                <p>
-                                    Our Vision
-                                    At MPTS TECH, our vision is to drive innovation and deliver exceptional digital solutions that empower businesses and individuals alike. We believe in the power of technology to transform lives and are committed to making that transformation as smooth and impactful as possible.
-                         </p>
-
-
-                         <p>
-                            Our Values
-                            Innovation: We embrace cutting-edge technologies and methodologies to deliver innovative solutions.
-                            Quality: Excellence is at the core of everything we do. We strive to exceed expectations in every project.
-                            Customer-Centric: Our clients are our partners. We work closely with them to understand their needs and deliver solutions that drive their success.
-                            Integrity: We uphold the highest standards of professionalism and ethical conduct in all our dealings.
-                            Join us on a journey to redefine what's possible with technology. Let's create the future, together.
-                          </p>
+                   
 
 
 
@@ -124,6 +122,7 @@
         </div>
     </div>
     <div class="container">
+
         <livewire:user.items.seo-pargraph />
     </div>
     <livewire:user.items.horizontalslider-component />

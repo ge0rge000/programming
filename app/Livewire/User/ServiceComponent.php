@@ -14,8 +14,9 @@ class ServiceComponent extends Component
     }
     public function render()
     {
+       
 
-        $service = Service::where('name_service', $this->name)->first();
+        $service = Service::where('name_service', 'like', $this->name)->first();
 
         $types=Type::where("service_id",$service->id)->get();
         return view('livewire.user.service-component',['types'=>$types,'service'=>$service])->layout('layouts.user');

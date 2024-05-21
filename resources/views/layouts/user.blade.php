@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Discover Dubai's premier creative branding agency specializing in web design, app development,
     smart home solutions, and digital marketing.">
-    <meta name="keywords" content="website Design, smart home,  iOS application, Android application, IoT integration, smart home installation>
+    <meta name="keywords" content="website Design, smart home,  iOS application, Android application, IoT integration, smart home installation">
 
     <link rel="canonical" href="{{ canonical() }}">
 
@@ -57,7 +57,7 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Spinner Start -->
-  
+
     <!-- Spinner End -->
 
 

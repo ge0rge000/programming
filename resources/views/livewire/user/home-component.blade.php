@@ -9,7 +9,9 @@
     background: rgb(0 0 0 / 59%) !important;
     z-index: 1;
 }
-
+.bg-primary {
+    background-color: #06a3da !important;
+}
 </style>
     @section('title', "Web Design")
     <livewire:user.items.slider-component />

@@ -1,5 +1,11 @@
 <div>
-  
+  <style>
+    h5 {
+    color: #06a3d8;
+}.bg-primary {
+    background-color: #06a3d8 !important;
+}
+  </style>
 @section('title', "Web Design Dubai | Web Design Company Dubai | Best Web Design Sharjah UAE | Web Design Services Dubai") <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
         <div class="row py-5">
             <div class="col-12 pt-lg-5 mt-lg-5 text-center">

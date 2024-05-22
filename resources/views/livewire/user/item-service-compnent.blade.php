@@ -1,5 +1,14 @@
 <div>
-
+<style>
+    img.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}p {
+    font-weight: 300;
+    text-align: justify;
+}
+</style>
 
   <br>
   <br>

@@ -8,7 +8,7 @@
     bottom: 0;
     background: rgb(0 0 0 / 59%) !important;
     z-index: 1;
-}   
+}
 
 </style>
     @section('title', "Web Design")

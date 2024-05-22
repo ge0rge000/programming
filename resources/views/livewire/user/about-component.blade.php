@@ -1,5 +1,25 @@
 <div>
-   
+    <style>
+        p.mb-4 {
+    text-align: justify;
+    line-height: 1.9;
+}p {
+    text-align: justify;
+}h2 {
+    color: #06a3da;
+}p {
+    text-align: justify;
+}h5.mb-3 {
+    color: black;
+}
+
+h5.mb-2 {
+    color: black;
+}.text-white {
+    color: #fff !important;
+}
+    </style>
+
  @section('title', "Web Design Dubai | Web Design Company Dubai | Best Web Design Sharjah UAE | Web Design Services Dubai") <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
         <div class="row py-5">
             <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -38,7 +58,7 @@
                         <h1 class="mb-0">Welcome to MPTS Tech</h1>
                     </div>
 
-                    <section class="content" id="services">
+                    <section class="contentde" id="services">
                         <div class="container">
                             <h2>Our Services</h2>
                             <p><strong>Web Development:</strong> Our web development team creates stunning, responsive websites that not only look great but also perform seamlessly across all devices. From corporate websites to e-commerce platforms, we build web solutions that enhance your online presence and engage your audience.</p>
@@ -48,7 +68,7 @@
                         </div>
                     </section>
 
-                    <section class="content" id="process">
+                    <section class="contentde" id="process">
                         <div class="container">
                             <h2>Our Process</h2>
                             <p><strong>Consultation:</strong> We start by understanding your business goals, target audience, and project requirements.</p>
@@ -59,7 +79,7 @@
                         </div>
                     </section>
 
-                    <section class="content" id="contact">
+                    <section class="contentde" id="contact">
                         <div class="container">
                             <h2>Get in Touch</h2>
                             <p>Ready to take your digital presence to the next level? Contact us today to discuss your project and see how MPTS Tech can help you achieve your goals.</p>

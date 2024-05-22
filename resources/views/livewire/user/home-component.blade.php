@@ -13,7 +13,7 @@
     background-color: #06a3da !important;
 }
 </style>
-    @section('title', "Web Design")
+    @section('title', "Create website| make application Andriod & Ios  | smart home solutions")
     <livewire:user.items.slider-component />
 
     <!-- Navbar & Carousel End -->

@@ -1,6 +1,16 @@
 <div>
 
+<style>
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 59%) !important;
+    z-index: 1;
+}   
 
+</style>
     @section('title', "Web Design")
     <livewire:user.items.slider-component />
 

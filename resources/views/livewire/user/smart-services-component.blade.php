@@ -1,6 +1,10 @@
 <div>
- 
 
+<style>
+body {
+    overflow-x: hidden;
+}
+</style>
 <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item fixed-size active">

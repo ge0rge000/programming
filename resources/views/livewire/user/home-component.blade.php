@@ -1,26 +1,5 @@
 <div>
-    <style>
-        .testimonial-item.bg-light.my-4 {
-            height: 350px !important;
-        }
-        .section-title.text-center.position-relative.pb-3.mb-5.mx-auto {
-            max-width: 100% !important;
-        }
-        span.best {
-            color: black;
-        }
-        .card-link {
-            display: block;
-            color: inherit; /* Maintains the text color */
-            text-decoration: none; /* Removes underline */
-        }
-        h2 {
-            color: #06a3da;
-        }
-        p {
-            text-align: justify;
-        }
-    </style>
+
 
     @section('title', "Web Design")
     <livewire:user.items.slider-component />

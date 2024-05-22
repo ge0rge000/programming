@@ -31,6 +31,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ asset('user/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('user/css/all.css') }}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('user/css/style.css') }}" rel="stylesheet">

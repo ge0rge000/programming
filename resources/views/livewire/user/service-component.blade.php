@@ -1,55 +1,5 @@
 <div>
-    <style>
-        .service-item .service-icon {
-
-    color: white;
-}.blog-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Ensures the footer is aligned at the bottom */
-}
-
-.blog-img {
-    width: 100%;
-    overflow: hidden; /* Keeps the image bounded within the div */
-}
-
-
-.bg-primary {
-    background-color: #ffffff !important;
-}
-img.img-fluid {
-    width: 63%;
-    height: 100%;
-    object-fit: contain;
-}
-
-p.banner {
-    text-align: justify;
-    margin: 44px;
-}h2 {
-    color: #06a3da;
-}p {
-    text-align: justify;
-}
-h1.banner {
-    font-size: 43px;
-    line-height: 1.3;
-    font-weight: 600;
-    background: -webkit-gradient(linear, left top, right top, from(#06a3da), color-stop(39.06%, #06a3da), color-stop(77.6%, #0084ff), to(#00c6e9));
-    background: linear-gradient(90deg, #06a3da, #06a3da 39.06%, #0084ff 77.6%, #00c6e9);
-    background: var(--Gradient-1, linear-gradient(90deg, #06a3da, #06a3da 39.06%, #0084ff 77.6%, #00c6e9));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: sans-serif;
-}
-
-a.position-absolute.top-0.start-0.bg-primary.text-white.rounded-end.mt-5.py-2.px-4 {
-    color: #06a3da !important;
-    font-weight: bold;
-}
-    </style>
+  
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @section('title',str_replace('-',' ',$name))
      <br>

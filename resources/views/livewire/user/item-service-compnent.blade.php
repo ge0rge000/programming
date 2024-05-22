@@ -1,41 +1,6 @@
 <div>
 
-  <style>
-    a.nav-item.nav-link {
-    color: black !important;
-}a.nav-link.dropdown-toggle {
-    color: black !important;
-}.navbar-dark .navbar-brand h1 {
-    color: #06a3da;
-}img.img-fluid.w-100.rounded.mb-5 {
-    height: 471px;
-}
-h1.mb-4 {
-    color: #06a3da;
-}p {
-    text-align: justify;
-}.card-link {
-    display: block;
-    color: inherit;  /* Inherits text color */
-    text-decoration: none;  /* Removes underline */
-}
-h5 {
-    color: white;
-}
-@media (max-width: 970px) {
-    img.img-fluid.w-100.rounded.mb-5 {
-    height: 350px;
-}.card-link {
-    display: block;
-    color: inherit;  /* Inherits text color */
-    text-decoration: none;  /* Removes underline */
-}
 
-}
-h2 {
-    color: #06a3da;
-}
-  </style>
   <br>
   <br>
   <br>

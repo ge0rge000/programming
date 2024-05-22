@@ -1,33 +1,5 @@
 <div>
-    <style>
-        /* Custom styles for additional responsiveness */
-        .blog-detail img {
-            max-width: 100%;
-            height: auto;
-        }
-        p {
-    text-align: justify;
-}
-        @media (max-width: 768px) {
-            .blog-detail h1 {
-                font-size: 1.75rem;
-            }
 
-            .blog-detail p {
-                font-size: 1rem;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .blog-detail h1 {
-                font-size: 1.5rem;
-            }
-
-            .blog-detail p {
-                font-size: 0.875rem;
-            }
-        }
-    </style>
 @section('title', "Web Design Dubai | Web Design Company Dubai | Best Web Design Sharjah UAE | Web Design Services Dubai")
     <div class="container">
         <div class="row g-5">

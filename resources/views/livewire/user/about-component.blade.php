@@ -1,17 +1,5 @@
 <div>
-    <style>
-        p.mb-4 {
-    text-align: justify;
-    line-height: 1.9;
-}p {
-    text-align: justify;
-}h2 {
-    color: #06a3da;
-}p {
-    text-align: justify;
-}
-    </style>
-
+   
  @section('title', "Web Design Dubai | Web Design Company Dubai | Best Web Design Sharjah UAE | Web Design Services Dubai") <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
         <div class="row py-5">
             <div class="col-12 pt-lg-5 mt-lg-5 text-center">
@@ -86,7 +74,7 @@
                         In the digital age, your website is your storefront. We design and develop stunning, user-friendly websites that not only captivate your audience but also drive engagement and conversions. Our expertise ranges from corporate websites to e-commerce platforms, ensuring your online presence is as robust as it is appealing.
 
 
-                   
+
 
 
 

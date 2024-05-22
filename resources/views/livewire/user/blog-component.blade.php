@@ -1,56 +1,5 @@
 <div>
-    <style>
-        .blog-item {
-            width: 100%;
-            height: auto; /* Allow height to adjust based on content */
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 20px; /* Add margin between items */
-        }
 
-        .blog-img {
-            flex: 1 1 auto;
-            height: 200px;
-            overflow: hidden;
-        }
-
-        .blog-img img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .p-4 {
-            padding: 16px;
-        }
-
-        .text-truncate {
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        @media (max-width: 768px) {
-            .col-md-6 {
-                flex: 0 0 100%;
-                max-width: 100%;
-            }
-
-            .blog-img {
-                height: 150px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .blog-img {
-                height: 120px;
-            }
-
-            .p-4 {
-                padding: 12px;
-            }
-        }
-    </style>
     @section('title', "Web Design Dubai | Web Design Company Dubai | Best Web Design Sharjah UAE | Web Design Services Dubai")
     <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
         <div class="row py-5">
@@ -115,7 +64,7 @@
                         </div>
 
 
-                       
+
 
                     </div>
                 </div>

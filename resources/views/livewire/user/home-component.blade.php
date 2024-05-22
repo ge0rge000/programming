@@ -92,9 +92,20 @@
                 @endforeach
                 @if ($service->types->count() > 3)
                 <div class="col-12 text-center mt-4">
-                    <a class="btn btn-primary" href="{{ route('service_component', ['name' => $service->name_service]) }}">View All Types</a>
+                    @if ($service->name_service == 'Website Design')
+                        <a class="btn btn-primary" href="{{ route('service_component', ['name' => $service->name_service]) }}">View All Website Design Types</a>
+                    @elseif ($service->name_service == 'Mobile Application')
+                        <a class="btn btn-primary" href="{{ route('service_component', ['name' => $service->name_service]) }}">View All Mobile Application Types</a>
+                    @elseif ($service->name_service == 'Smart Integration (IoT)')
+                        <a class="btn btn-primary" href="{{ route('service_component', ['name' => $service->name_service]) }}">View All Smart Integration Types</a>
+                    @elseif ($service->name_service == 'Digital Marketing')
+                        <a class="btn btn-primary" href="{{ route('service_component', ['name' => $service->name_service]) }}">View All Digital Marketing Types</a>
+                    @elseif ($service->name_service == 'Video Animation')
+                        <a class="btn btn-primary" href="{{ route('service_component', ['name' => $service->name_service]) }}">View All Video Animation Types</a>
+                    @endif
                 </div>
-                @endif
+            @endif
+
             </div>
         </div>
     </div>
@@ -107,7 +118,7 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
+
                 <h2 class="mb-0">What Our Clients Say About Our Services</h2>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">

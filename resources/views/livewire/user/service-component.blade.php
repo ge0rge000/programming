@@ -1,5 +1,9 @@
 <div>
-  
+  <style>
+ a.position-absolute.top-0.start-0.bg-primary.text-white.rounded-end.mt-5.py-2.px-4 {
+    color: #06a3da !important;
+}
+  </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @section('title',str_replace('-',' ',$name))
      <br>

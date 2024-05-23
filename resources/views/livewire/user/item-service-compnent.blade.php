@@ -7,6 +7,8 @@
 }p {
     font-weight: 300;
     text-align: justify;
+}.bg-primary {
+    background-color: #06a3da !important;
 }
 </style>
 
